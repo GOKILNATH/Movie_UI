@@ -2,7 +2,7 @@ import Movies_Comp from "./Movies_Comp"
 import Recent_Movies from "./Recent_Movies"
 import SearchBar from "./SearchBar"
 import Menu from "./Menu"
-import Footer from "./footer"
+import Footer from "./Footer"
 
 function Movies(){
     
