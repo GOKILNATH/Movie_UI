@@ -64,7 +64,7 @@ img{
   height: 100%;
   min-height: 92vh;
   padding: 20px;
-  background-image: url('/Movie_UI/assets/specific_bg_img.jpg'); 
+  background-image: url('/Movie_UI/specific_bg_img.jpg'); 
 
 }
 
@@ -125,7 +125,7 @@ img{
 }
 
 .search-bar{
-  background-image: url('/Movie_UI/assets/search_bg_img2.jpg');
+  background-image: url('/Movie_UI/search_bg_img2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 220px;
