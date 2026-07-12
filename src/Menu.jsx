@@ -1,14 +1,16 @@
+import { Link } from 'react-router-dom';
+
 function Menu(){
     return(
         <div className="menu">
             <h1>Net Mirror</h1>
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/movies">Movies</a></li>
-                    <li><a href="/series">Series</a></li>
-                    <li><a href="/about">About</a></li>
-                    <span ><a href="/login">Login</a></span>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/movies">Movies</Link></li>
+                    <li><Link to="/series">Series</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <span><Link to="/login">Login</Link></span>
                 </ul>
             </nav>
         </div>
