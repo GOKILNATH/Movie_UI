@@ -27,7 +27,12 @@ function Recent_Movies(){
     return(
         <>
         <div className="recent-movie-container">
-        <span>Recent Added Movies</span>
+        <br/>
+        <br />
+        <br />
+        <span>Recently Added Movies</span>
+            <br/>
+            <br />
             <div className="main-container">
                 <ul className="movie-list">
                     {movie.map((m)=>(
@@ -40,6 +45,9 @@ function Recent_Movies(){
                         </li>
                     ))}
                 </ul>
+            <br/>
+            <br />
+            <br />
             </div>
         </div>
         </>

@@ -1,26 +1,19 @@
+import Menu from "./Menu"
+import SearchBar from "./SearchBar"
 import Movies_Comp from "./Movies_Comp"
 import Recent_Movies from "./Recent_Movies"
-import Tv_Show from "./Tv_Show"
-import Popular_Tv_Show from "./Popular_Tv_Show"
-import SearchBar from "./SearchBar"
-import Menu from "./Menu"
 import Footer from "./Footer"
 
-function Movies(){
-    
-
-    
-    return(
+function Only_movies() {
+    return (
         <>
         <Menu />
         <SearchBar />
         <Movies_Comp />
         <Recent_Movies />
-        <Tv_Show />
-        <Popular_Tv_Show /> 
         <Footer />
         </>
     )
 }
 
-export default Movies
+export default Only_movies

@@ -10,6 +10,33 @@ img{
   width: 100%;
 }
 
+.about-nn {
+   display:inline-block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  min-height: 92vh;
+  padding: 20px;
+  background-image: url('/about_bg_img.jpg');
+}
+
+.about-nn h2{
+  margin-top: 15%;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.about-nn h3{
+  text-align: center;
+  color: white;
+}
+
+.about-nn h4{
+text-align: center;
+  color: white;
+}
 .main-container{
   overflow: scroll;
 }
@@ -57,7 +84,7 @@ img{
 }
 
 .specificContainer{
-  display: flex;
+  display:flex;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -70,11 +97,12 @@ img{
 .specificContainer img{
   width: 300px;
   height: 500px;
-  margin-left: 25%;
+  margin-right: 55%;
   margin-top: 5%;
 }
 
 .specificContainer h1{
+  color: rgb(6, 11, 23);
   position: absolute;
   margin-left: 45%;
   margin-top: 10%;
