@@ -20,5 +20,12 @@
     "@vitejs/plugin-react": "^6.0.3",
     "oxlint": "^1.71.0",
     "vite": "^8.1.1"
+  },
+  "homepage": "https://gokilnath.github.io/Movie_UI",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
   }
+
 }
